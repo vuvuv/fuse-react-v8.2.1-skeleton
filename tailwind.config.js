@@ -12,6 +12,8 @@ module.exports = {
       md: '960px',
       lg: '1280px',
       xl: '1920px',
+      _1880: {'max': '1880px'},
+      _960: {'max': '960px'},
       print: { raw: 'print' },
     },
     colors: ({ colors }) => ({
