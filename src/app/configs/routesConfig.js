@@ -8,10 +8,12 @@ import SignOutConfig from '../main/sign-out/SignOutConfig';
 import Error404Page from '../main/404/Error404Page';
 import ExampleConfig from '../main/example/ExampleConfig';
 import AnalyticsDashboardAppConfig from '../main/dashboards/admin/AnalyticsDashboardAppConfig';
+import DatatestConfig from '../main/datatest/DatatestConfig';
 
 const routeConfigs = [
   AnalyticsDashboardAppConfig,
   ExampleConfig,
+  DatatestConfig,
   SignOutConfig,
   SignInConfig,
   SignUpConfig,
@@ -21,7 +23,7 @@ const routes = [
   ...FuseUtils.generateRoutesFromConfigs(routeConfigs, settingsConfig.defaultAuth),
   {
     path: '/',
-    element: <Navigate to="/example" />,
+    element: <Navigate to="/datatest" />,
     auth: settingsConfig.defaultAuth,
   },
   {

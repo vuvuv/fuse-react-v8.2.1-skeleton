@@ -33,7 +33,7 @@ import React from 'react';
 
 const Example = lazy(() => import('./Example'));
 
-const ExampleConfig = {
+const DatatestConfig = {
   settings: {
     layout: {
       config: {},
@@ -47,5 +47,5 @@ const ExampleConfig = {
   ],
 };
 
-export default ExampleConfig;
+export default DatatestConfig;
 */

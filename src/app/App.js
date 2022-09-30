@@ -13,14 +13,14 @@ import themeLayouts from 'app/theme-layouts/themeLayouts';
 import { selectMainTheme } from 'app/store/fuse/settingsSlice';
 import FuseAuthorization from '@fuse/core/FuseAuthorization';
 import settingsConfig from 'app/configs/settingsConfig';
+import axios from 'axios';
 import withAppProviders from './withAppProviders';
 import { AuthProvider } from './auth/AuthContext';
 
-// import axios from 'axios';
 /**
  * Axios HTTP Request defaults
  */
-// axios.defaults.baseURL = "";
+// axios.defaults.baseURL = "http://localhost:4000";
 // axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 // axios.defaults.headers.common['Content-Type'] = 'application/x-www-form-urlencoded';
 

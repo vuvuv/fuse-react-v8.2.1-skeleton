@@ -1,5 +1,6 @@
 import './api/dashboards/analytics-api';
 import './api/auth-api';
+import './api/dashboard-api';
 import './api/notifications-api';
 import history from '@history';
 import mock from './mock';

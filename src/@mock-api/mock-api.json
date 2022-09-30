@@ -7900,6 +7900,15 @@
     },
     "securitySchemes": {},
     "examples": {
+      "dashboard": {
+        "ping": {
+          "totalProduceIncome":1102945,
+          "totalCoReduction":331,
+          "power_graph_his":36764.843,
+          "prognozfakt":78.14435655280779,
+          "kium_graph_his":15.318684583333335
+        }
+      },
       "contacts": {
         "value": [
           {
